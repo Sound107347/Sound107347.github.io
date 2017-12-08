@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>тренировочные фразы - 02</title>
+<link rel="stylesheet" href="styling.css">
+<style>
+body {background:url("images/snow crystals.jpg"); background-color: black; background-size: cover; background-repeat: no-repeat; opacity: .9}
+#container {background-color: blue; opacity: .8;}
+#grid_container {background-image: url("images/good dreams.jpg"); background-size: cover; opacity: .9}
+a.btn8 {color:gold;}
+a.btn9 {color:#ffff00;}
+
+</style>
+<script src ="column grid.js" type="text/javascript"></script>
+<script src ="channels.js" type="text/javascript"></script>
+
+<script>
+	var btnSound = new Audio();
+	btnSound.src = "button_04.wav";
+var wss_i = 0;
+var wss_array = ["Сны","Видеть сны","Мечтать","Окончательно","Наконец-то","В конце концов","Семья","Что-то ещё","Рождество","Сочельник","Сладкий","Милый","Разумеется","Конечно же","Само собой разумеется"];
+var wss_elem;
+function wssNext(){
+	wss_i++;
+	wss_elem.style.opacity = 0;
+	if(wss_i > (wss_array.length - 1)){
+		wss_i = 0;
+	}
+	setTimeout('wssSlide()',400);
+}
+function wssSlide(){
+	wss_elem.innerHTML = wss_array[wss_i];
+	wss_elem.style.opacity = 1;
+	setTimeout('wssNext()',5000);
+}
+</script>
+</head> 
+
+<body>
+<div id="container">
+<div id="grid_container">
+
+<div><a class="btn8" onmousedown="javascript:play_multi_sound('phrase01');">"<strong>Christmas</strong> Eve"
+<audio id="phrase01" src="audio02/Christmas Eve.wav" preload="auto"></audio></a></div>
+
+<div><a class="btn8" onmousedown="javascript:play_multi_sound('phrase02');">"dreaming <strong>sweet</strong> dreams"
+<audio id="phrase02" src="audio02/dreaming sweet dreams.wav" preload="auto"></a></div>
+
+
+<div><a class="btn8" onmousedown="javascript:play_multi_sound('phrase03');">"sweet <strong>dreams</strong>"
+<audio id="phrase03" src="audio02/sweet dreams.wav" preload="auto"></a></div>
+
+<div><a class="btn8" onmousedown="javascript:play_multi_sound('phrase04');">"it was <strong>Christmas Eve</strong>"
+<audio id="phrase04" src="audio02/it was Christmas Eve.wav" preload="auto"></audio></a></div>
+
+<div><a class="btn8" onmousedown="javascript:play_multi_sound('phrase05');">"the Thomas <strong>family</strong>"
+<audio id="phrase05" src="audio02/in the Thomas family.wav" preload="auto"></a></div>
+
+
+<div><a class="btn8" onmousedown="javascript:play_multi_sound('phrase06');">"<strong>finally</strong> of course"
+<audio id="phrase06" src="audio02/finally of course.wav" preload="auto"></a></div>
+
+<div><a class="btn8" onmousedown="javascript:play_multi_sound('phrase07');">"was not dreaming sweet dreams"
+<audio id="phrase07" src="audio02/was not dreaming sweet dreams.wav" preload="auto"></a></div>
+
+<div><a class="btn8" onmousedown="javascript:play_multi_sound('phrase08');">"and everyone in the Thomas family"
+<audio id="phrase08" src="audio02/and everyone in the Thomas family.wav" preload="auto"></audio></a></div>
+
+<div><a class="btn8" onmousedown="javascript:play_multi_sound('phrase09');">"something <strong>else</strong>"
+<audio id="phrase09" src="audio02/something else.wav" preload="auto"></a></div>
+
+<div></div>
+
+<div><a class="btn8" onmousedown="javascript:play_multi_sound('phrase10');">"was having a nightmare"
+<audio id="phrase10" src="audio02/was having a nightmare.wav" preload="auto"></a></div>
+
+<div><a class="btn8" onmousedown="javascript:play_multi_sound('phrase12');">"was dreaming"
+<audio id="phrase12" src="audio02/was dreaming.wav" preload="auto"></a></div>
+
+<a id="words">Словарь:  <span id="wss"></span></a>
+</div>
+
+<a class="btn9" onclick="location.href='../index.html';" onmousedown="btnSound.play();">Возвратиться к Цитатам</a>
+<a class="btn9" onclick="location.href='../../index.html';" onmousedown="btnSound.play();">Перейти на Стартовую</a>
+</div>
+
+<div id="counter"> <img src="images/everlastingstar.jpg" width="10%" height="10%"></div>
+<script>wss_elem = document.getElementById("wss"); wssSlide(); </script>
+</body>
+</html>
