@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>цитаты - 01</title>
+<link rel="stylesheet" href="stylingCitations.css">
+<script src ="channels.js" type="text/javascript"></script>
+</head>
+
+<center>
+<body>
+<div id="container">
+<div id="wrapper">
+<audio id="player1" src="audio/citation_01.mp3"></audio>
+<audio id="player2" src="audio/citation_02.mp3"></audio>
+<audio id="player3" src="audio/citation_03.mp3"></audio>
+
+<p style="text-align:left">	
+<a class="play" onclick="document.getElementById('player1').play()"> 
+<img src="images/play.png"></img></a>
+<a class="pause" onclick="document.getElementById('player1').pause()"> 
+<img src="images/pause.png"></img></a>
+
+<q><span class="sound" onmousedown="javascript:playSound('phrase01');"> The <i>Principle</i> </span><span class="sound" onmousedown="javascript:playSound('phrase02');">is simple. </span><span class="sound" onmousedown="javascript:playSound('phrase03');"> It tells us </span>we<span class="sound" onmousedown="javascript:playSound('phrase04');">  are nothing special</span> </q>.</p>
+
+<audio id="phrase01" source src="audio/the principle.mp3" preload="auto"></audio>
+<audio id="phrase02" source src="audio/is simple.mp3" preload="auto"></audio>
+<audio id="phrase03" source src="audio/it tells us.mp3" preload="auto"></audio>
+<audio id="phrase04" source src="audio/nothing special.mp3" preload="auto"></audio>
+
+<p style="text-align:left">	
+<a class="play" onclick="document.getElementById('player2').play()"> 
+<img src="images/play.png"></img></a>
+<a class="pause" onclick="document.getElementById('player2').pause()"> 
+<img src="images/pause.png"></img></a>
+<q> As Carl Sagan<span class="sound" onmousedown="javascript:playSound('phrase05');"> has put it: </span><span class="sound" onmousedown="javascript:playSound('phrase06');"> we live </span><span class="sound" onmousedown="javascript:playSound('phrase07');"> on an insignificant planet </span><span class="sound" onmousedown="javascript:playSound('phrase08');"> of a humdrum star </span><span class="sound" onmousedown="javascript:playSound('phrase09');"> lost in a galaxy </span><span class="sound" onmousedown="javascript:playSound('phrase10');"> tucked away in </span><span class="sound" onmousedown="javascript:playSound('phrase11');"> some forgotten corner </span>of the universe<span class="sound" onmousedown="javascript:playSound('phrase12');"> in which there are</span><span class="sound" onmousedown="javascript:playSound('phrase13');"> far more galaxes </span>than people </q>.</p>
+
+<audio id="phrase05" source src="audio/has put it.mp3" preload="auto"></audio>
+<audio id="phrase06" source src="audio/we live.mp3" preload="auto"></audio>
+<audio id="phrase07" source src="audio/on an insignificant planet.mp3" preload="auto"></audio>
+<audio id="phrase08" source src="audio/of a humdrum star.mp3" preload="auto"></audio>
+<audio id="phrase09" source src="audio/lost in a galaxy.mp3" preload="auto"></audio>
+<audio id="phrase10" source src="audio/tucked away in.mp3" preload="auto"></audio>
+<audio id="phrase11" source src="audio/some forgotten corner.mp3" preload="auto"></audio>
+<audio id="phrase12" source src="audio/in which there are.mp3" preload="auto"></audio>
+<audio id="phrase13" source src="audio/far more galaxes.mp3" preload="auto"></audio>
+
+<p style="text-align:left">
+<a class="play" onclick="document.getElementById('player3').play()"> 
+<img src="images/play.png"></img></a>
+<a class="pause" onclick="document.getElementById('player3').pause()"> 
+<img src="images/pause.png"></img></a>
+
+<q>and built<span class="sound" onmousedown="javascript:playSound('phrase14');"> and the arts.</span><span class="sound" onmousedown="javascript:playSound('phrase15');">Their caravans </span><span class="sound" onmousedown="javascript:playSound('phrase16');"> crossed the desert  </span>opening up <span class="sound" onmousedown="javascript:playSound('phrase17');"> the first trade routes</span></q>.</p>
+
+
+
+<audio id="phrase14" source src="audio/and the arts.mp3" preload="auto"></audio>
+<audio id="phrase15" source src="audio/their caravans.mp3" preload="auto"></audio>
+<audio id="phrase16" source src="audio/crossed the desert.mp3" preload="auto"></audio>
+<audio id="phrase17" source src="audio/the first trade routes.mp3" preload="auto"></audio>
+</div>
+
+<a class="btn9" style="float: right; width: 19%;" onclick="location.href='phrases_01.html';" onmousedown="btnSound.play();">Фразы</a>
+<a class="btn9" style="float: left; width: 21%;" onclick="location.href='../story01.html';" onmousedown="btnSound.play();">возвратиться к Истории</a>
+</div>
+
+<script>
+var btnSound = new Audio();
+btnSound.src = "button_04.wav";
+</script>
+</body>
+</html>
