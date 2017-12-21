@@ -1,7 +1,7 @@
 body{
 	margin: 0;
     padding: 0;
-	background:url('images/stars.jpg');
+	background:url('images/tiles.jpg');
 	
 }
 
@@ -24,7 +24,7 @@ div#wrapper {
 	border-radius: 12px;
 	background-color:#003A5E;
 	
-	background:url('images/pattern.jpg');
+	background:url('images/stars.jpg');
 	background-size: 50% 100%;
 	
 	opacity: .9;
