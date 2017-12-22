@@ -15,9 +15,9 @@ function audioApp(){
 	    "track2":["its leaders left for Egypt, Mexico, and Peru", "its leaders left for Egypt Mexico and Peru"],
 		"track3":["he was the husband of Nefertiti", "he was the husband of Nefertiti"],
 		"track4":["and father of Tutankhamen","and father of Tutankhamun"],
-	    "track5":["gigantic cities", "gigantic cities"],
-		"track6":["into minutes", "into minutes"],
-		"track7":["make ceramics","make ceramics"]
+	    "track5":["the book explains that before the island sank", "the book explains that before the island sank"],
+		"track6":["perhaps the most known of these ancient leaders", "perhaps the most known of these ancient leaders"],
+		"track7":["by American politician Ignatius Donnelly","by American politician Ignatius Donnelly"]
 	};
 	for(var track in tracks){
 		var tb = document.createElement("div");
