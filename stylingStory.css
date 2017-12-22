@@ -83,10 +83,10 @@ nav#menu > a:active{ background: #7FBFFF;}
 	padding:10px;
 	margin:25px;
 	display: inline-block;
-   	position: relative; 
+    position: relative; 
 	border: 2px solid #FFDD00;
 	border-radius:8px;
-	width: 450px;
+	width: 430px;
 	opacity:.8;
 }
 
@@ -145,4 +145,3 @@ a.btn9:active {
   top: 1px;
   color: #7a7a7a;
 }
-
