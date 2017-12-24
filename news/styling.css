@@ -95,7 +95,7 @@ div#gridСontainer > div:nth-child(2n+1) {
 	padding: 5px;
 }
 
-a.button8 {
+a.btn8 {
   position: relative;
   display: inline-block;
   margin: 5px;
@@ -108,23 +108,11 @@ a.button8 {
   border: 1px solid rgba(0,0,0,0.5);
   border-bottom: 3px solid rgba(0,0,0,0.5);
   border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.5), /* Exterior Shadow */
     inset 0 1px rgba(255,255,255,0.3), /* Top light Line */
     inset 0 10px rgba(255,255,255,0.2), /* Top Light Shadow */
     inset 0 10px 20px rgba(255,255,255,0.25), /* Sides Light Shadow */
     inset 0 -15px 30px rgba(0,0,0,0.3); /* Dark Background */
-  -webkit-box-shadow: 0 2px 8px rgba(0,0,0,0.5),
-    inset 0 1px rgba(255,255,255,0.3),
-    inset 0 10px rgba(255,255,255,0.2),
-    inset 0 10px 20px rgba(255,255,255,0.25),
-    inset 0 -15px 30px rgba(0,0,0,0.3);
-  -moz-box-shadow: 0 2px 8px rgba(0,0,0,0.5),
-    inset 0 1px rgba(255,255,255,0.3),
-    inset 0 10px rgba(255,255,255,0.2),
-    inset 0 10px 20px rgba(255,255,255,0.25),
-    inset 0 -15px 30px rgba(0,0,0,0.3);
 }
 
 a.button8:hover {
@@ -134,7 +122,7 @@ a.button8:hover {
   -khtml-opacity: 0.7;
 }
 
-a.button9 {
+a.btn9 {
   position: relative;
   display: inline-block;
   color: #000;
@@ -158,11 +146,11 @@ a.button9 {
   background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
   box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
 }
-a.button9:hover {
+a.btn9:hover {
   transition: .5s linear;
   background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
 }
-a.button9:active {
+a.btn9:active {
   top: 1px;
 }
 
