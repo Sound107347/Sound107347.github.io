@@ -1,5 +1,5 @@
 function renderGrid(){
-	var blocks = document.getElementById("grid_container").children;
+	var blocks = document.getElementById("gridContainer").children;
 	var pad = 10, cols = 3, newleft, newtop;
 	for(var i = 1; i < blocks.length; i++){
 		if (i % cols == 0) {
