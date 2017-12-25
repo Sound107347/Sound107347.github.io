@@ -117,9 +117,6 @@ a.btn8 {
 
 a.btn8:hover {
   opacity: 0.7;
-  filter: alpha(opacity=70);
-  -moz-opacity:0.7;
-  -khtml-opacity: 0.7;
 }
 
 a.btn9 {
