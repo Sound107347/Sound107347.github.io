@@ -14,7 +14,7 @@ function audioApp(){
 		"track1":["The <i>Beginning</i> is a very delicate <i>Time</i>.","1"],
 		"track2":["It was well into the <i>Time</i> of the great wetness.", "2"],
 		"track3":["Is it possible to travel through <i>Time</i>?", "3"],
-		"track4":["In this <i>Time</i> the most precious substance in the universe is the spice melange.", "5"]
+		"track4":["In this <i>Time</i> the most precious substance in the universe is the spice melange.", "4"]
 		
 	};
 	for(var track in tracks){
