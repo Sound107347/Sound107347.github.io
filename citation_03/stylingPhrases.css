@@ -14,7 +14,8 @@ div#container {
 	margin:10px auto;
 	height:690px;
 	border: 1.5px solid #c8c8c8;
-	background-color:#A83E17;
+	background:url('images/mesopotamia.jpg'); 
+	background-size: 100% 100%; 
 }
 
 div#grid_container {
@@ -23,17 +24,17 @@ div#grid_container {
 	height:610px;
 	border:#999 1px dashed;
 	border-radius: 15px;
-	background:url("images/everlastingstar.jpg"); 
-	background-size: contain; 
-	
+	background-color:none; 
+
 }
 
 div#grid_container > div{
+	opacity:8;
 	padding: 7px;
 	position:absolute;
-	margin:5px;
+	margin:2px;
 	width: 255px;
-	border: #AC554A 2px inset;
+	border: #F0FFFF 1px dotted;
 	border-radius: 15px;
 	box-shadow: 5px 1px 1px rgba(0,0,0,.5),
 				0px 0px 0px 1px rgba(0,0,0,.1);
@@ -41,26 +42,26 @@ div#grid_container > div{
 
 .text{
 	border-radius: 3px;
-	color: #FFDD00;
+	color: #FFE4C4;
 	opacity: .9;
 	text-align: center;
 	font-size:21px;
-	background-color:#B14A21;
+	background-color:#F69144;
 	padding: 8px;
 }
 
 .text:hover {
-	color: #F0F8FF;
+	color:#004343;
 }
 
 a.btn8 {
   position: relative;
   display: inline-block;
-  margin: 3px;
+  margin: 1px;
   background-color: #CF6737;
   cursor: pointer;
   text-decoration: none;
-  padding:15px;
+  padding:12px;
   border: 1px solid rgba(0,0,0,0.5);
   border-bottom: 3px solid rgba(0,0,0,0.5);
   border-radius: 5px;
@@ -71,8 +72,7 @@ a.btn8 {
     inset 0 -15px 30px rgba(0,0,0,0.3); /* Dark Background */
 }
 a.btn8:hover {
-filter:brightness(1.5);
-
+filter:brightness(1.2);
 background-color: #BA513A;
 }
 
@@ -106,7 +106,7 @@ a.btn9 {
 a.btn9:hover {
   transition: .5s linear;
   background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
-  color:#fff;
+  color:#000;
 }
 a.btn9:active {
   top: 1px;
