@@ -5,7 +5,6 @@ body{
 	margin: 0;
 	padding: 0;
 }
-
 .forCat{
 	width: 60px;
 	position: absolute;
@@ -24,7 +23,6 @@ body{
 	filter: contrast(170%);
 	opacity: 1;
 }
-		
 #logo {
 	font-family: Times New Romans;
 	padding-left:70px;
@@ -57,35 +55,31 @@ nav#menu > a:hover{ background: #FFA96D; }
 nav#menu > a:active{ background: #7FBFFF; top: 1px;}
 
 div#gridСontainer {
-	width:990px;
-	height: 550px;
+	width:1495px;
+	height: 345px;
 	margin:0px auto;
-	
 	border:#999 1px dashed;
 	border-radius: 15px;
 }
-
 div#gridСontainer > div{
 	opacity: .9;
 	padding: 10px;
 	padding-right: 25px;
 	position:absolute;
-	width: 285px;
+	width: 250px;
 	border: silver 2px solid;
 	border-radius: 15px;
 	box-shadow: 5px 1px 1px rgba(0,0,0,.5),
 				0px 0px 0px 1px rgba(0,0,0,.1);
+	overflow:hidden;
 }
-
 div#gridСontainer > div:nth-child(2n+0) {
 	background-color: #c18b3d;
 }
-
 div#gridСontainer > div:nth-child(2n+1) {
 	background-color: #a25016;
-	background: url('images/canvas.jpg');
-	background-size: contain;
 }
+audio{ width:100%; height:35px; display:block; margin:2px; }
 
 .text{
 	border-radius: 5px;
@@ -93,8 +87,8 @@ div#gridСontainer > div:nth-child(2n+1) {
 	opacity: .8;
 	background: #42281D;
 	padding: 5px;
+	text-align: left;
 }
-
 a.button {
   position: relative;
   display: inline-block;
@@ -108,29 +102,53 @@ a.button {
   border: 1px solid rgba(0,0,0,0.5);
   border-bottom: 3px solid rgba(0,0,0,0.5);
   border-radius: 3px;
-  
-  box-shadow: 0 2px 8px rgba(0,0,0,0.5), /* Exterior Shadow */
-    inset 0 1px rgba(255,255,255,0.3), /* Top light Line */
-    inset 0 10px rgba(255,255,255,0.2), /* Top Light Shadow */
-    inset 0 10px 20px rgba(255,255,255,0.25), /* Sides Light Shadow */
-    inset 0 -15px 30px rgba(0,0,0,0.3); /* Dark Background */
- }
-
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5), 
+    inset 0 1px rgba(255,255,255,0.3), 
+    inset 0 10px rgba(255,255,255,0.2), 
+    inset 0 10px 20px rgba(255,255,255,0.25), 
+    inset 0 -15px 30px rgba(0,0,0,0.3); 
+}
 a.button:hover {
   opacity: 0.7;
-  
 }
-
-a.button9 {
+a.button:active {
+  top: 1px;
+}
+.playerBox {
+	background-color:#60528F;
+	background:url("images/the_world.jpg"); 
+	background-size: 40% 100%;
+	
+	padding:10px;
+	margin:25px;
+	display: inline-block;
+    position: relative; 
+	border: 2px solid #FFDD00;
+	border-radius:8px;
+	width: 630px;
+	opacity:.8;
+	text-align: left;
+}
+.playerBox a{
+	text-decoration: none;
+	color: #fff;
+	font-size:20px;
+	overflow: auto;
+	font-family: cursive;
+	font-style: normal;
+}
+a.btn9 {
   position: relative;
   display: inline-block;
-  color: #000;
-  font-weight: bold;
+  margin: 40px;
+  float: left;
+  color:#3A32CE;
+  font-weight: bolder;
   font-size: 18px;
   text-decoration: none;
   text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
   user-select: none;
-  padding: 1em 2em;
+  padding: .8em 4em;
   outline: none;
   border-radius: 3px / 100%;
   background-image:
@@ -144,12 +162,14 @@ a.button9 {
   background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
   background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
   box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+  cursor: pointer;
 }
-a.button9:hover {
+a.btn9:hover {
   transition: .5s linear;
   background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+  color: #141414;
 }
-a.button9:active {
+a.btn9:active {
   top: 1px;
+  color: #7a7a7a;
 }
-
