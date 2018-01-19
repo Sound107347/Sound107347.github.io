@@ -1,6 +1,6 @@
 function renderGrid(){
 	var blocks = document.getElementById("gridСontainer").children;
-	var pad = 10, cols = 3, newleft, newtop;
+	var pad = 10, cols = 5, newleft, newtop;
 	for(var i = 1; i < blocks.length; i++){
 		if (i % cols == 0) {
 			newtop = (blocks[i-cols].offsetTop + blocks[i-cols].offsetHeight) + pad;
