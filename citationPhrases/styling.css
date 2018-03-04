@@ -28,23 +28,6 @@ div#grid_container > div{
 	background:none;
 	opacity: 1.;
 }
-div#counter {
-	position: fixed;
-	padding: 10px;
-	margin: 40px;
-}
-a#words { position: absolute;
-		font-size: 18px; 
-		background-color: #000;
-		opacity: .8;
-		padding: 10px;
-		margin: 10px auto;
-		width:330px;
-		height:25px;
-		border: 1.5px inset #ccc;
-}
-#wss {color: #ccc; opacity:0; transition:opacity 1 .0s linear 0s;
-							-webkit-transition:opacity 1 .0s linear 0s;}
 
 a.btn8 {
   position: relative;

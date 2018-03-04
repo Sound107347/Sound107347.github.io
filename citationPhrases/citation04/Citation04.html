@@ -1,5 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
-"http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -10,7 +9,8 @@ body {background:url("images/tapestry.jpg"); background-size: 50% 100%;}
 #container {opacity:.7;}
 a.btn9 {color:#DCDCDC;}</style>
 
-<script src ="channels.js" type="text/javascript"></script>
+<script>	var btnSound = new Audio();
+			btnSound.src = "button_04.wav";</script>
 </head> 
 
 <body>
@@ -36,10 +36,6 @@ a.btn9 {color:#DCDCDC;}</style>
 <a class="btn9" style="float: left; width: 19%;" onclick="location.href='phrases04.html';" onmousedown="btnSound.play();">больше Фраз</a>
 <a class="btn9" style="float: right; width: 19%;" onclick="location.href='../../index.html';" onmousedown="btnSound.play();">Возвратиться к Цитатам</a>
 </div>
-
-<script>
-var btnSound = new Audio();
-btnSound.src = "button_04.wav";
-</script>
+<script src ="channels.js" type="text/javascript"></script>
 </body>
 </html>
